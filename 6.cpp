@@ -17,11 +17,11 @@ int main()
 
 	D1 = A1 * B2 - A2 * B1;
 
-	x = D2 / D1;
+	y = D2 / D1;
 
 	D3 = C1 * B2 - B1 * C2;
 
-	y = D3 / D1;
+	x = D3 / D1;
 
 	if (y == -0) { y = 0; }
 	if (x == -0) { x = 0; }
