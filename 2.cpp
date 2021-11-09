@@ -5,7 +5,7 @@ int main()
 {
     int A, B, С;
     
-    cout << "Введите A : "; 
+    cout << "Введите A (должно быть больше B) : "; 
     cin >> A;
     cout << endl;
 
