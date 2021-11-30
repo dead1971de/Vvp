@@ -19,6 +19,6 @@ int main()
     
     if (B > A)A = B;
     
-        
+    cout << A <<" "<< B; 
     
 }
