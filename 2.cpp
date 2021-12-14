@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -9,7 +9,7 @@ int main()
 	cout << "Введите целое число (N>0): ";
 	cin >> n;
 
-	for (i = 1.1; i <= 1 + n / 10; i += 0.1) a *= i;
+	for (i = 1; i <= n; i++) a = a * (1 + i / 10);
 
 	cout << "Результат: " << a;
 
