@@ -1,4 +1,5 @@
-﻿#include <iostream>
+
+#include <iostream>
 using namespace std;
 
 int main()
@@ -9,7 +10,7 @@ int main()
     cout << "Введите значение переменной N (N > 1) : ";
     cin >> N;
 
-    while (A <= N)
+    while (A < N)
     {
         ++K;
         A += K;
