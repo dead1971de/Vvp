@@ -11,12 +11,12 @@ return (r1-r2);
 
 int main()
 {
-setllocale(LC_ALL, "RUS");
+setlocale(LC_ALL, "RUS");
 float r1,r2,r3,r4,r5,r6;
 
 cout << "Введите радиусы (r1>r2): ";
 cin >> r1 >> r2;
-cout >> "Введите радиусы (r3>r4): ";
+cout << "Введите радиусы (r3>r4): ";
 cin >> r3 >> r4;
 cout << "Введите радиусы (r5>r6): ";
 cin >> r5 >> r6;
