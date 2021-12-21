@@ -1,0 +1,24 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(
+{
+setlocale(LC_ALL,"RUS")
+
+int n,i,a,d;
+
+cout<<"Введите число N>1: ";
+cin>>n;
+
+cout<<"Введите число A: ";
+cin>>a;
+
+cout<<"Введите число D: ";
+cin>>d;
+
+int arr[n];
+
+for (i=0;i<n;i++)arr[i]=a*pow(d,i);
+for (i=0;i<n;i++)cout<<arr[i]<<" ";
+}
