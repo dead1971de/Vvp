@@ -1,32 +1,30 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
-int Quarter(int x, int y) 
+float Fact2(int N)
 {
-	if (x > 0) 
-	{
-		if (y > 0) return 1;
+float a=1;
 
-		else return 4;
-	}
-	else 
-	{
-		if (y > 0) return 2;
-
-		else return 3;
-	}
+if (N%2!=0)
+{
+for (int i=1;i<=N;i=i+2) a=a*i;
+}
+	
+else
+{
+for (int i=2;i<=N;i=i+2) a=a*i;
+}
+return a;
 }
 
 int main()
 {
-	setlocale(LC_ALL, "RUS");
-	int x1, x2, x3, y1, y2, y3;
+setlocacle(LC_ALL,"RUS");
+int n;
 
-	cout << "Введите ненулевые координаты 3х точек (x1,y1,x2,y2,x3,y3): ";
-	cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
+cout<<"Введите целое число N (N>0): ";
 
-	cout << "Первая точка: " << Quarter(x1, y1) << " четверть" << endl;
-	cout << "Вторая точка: " << Quarter(x2, y2) << " четверть" << endl;
-	cout << "Третья точка: " << Quarter(x3, y3) << " четверть" << endl;
+cin>>n;
 
+cout<<"Двойной факториал числа N: "<<Fact2(n);
 }
