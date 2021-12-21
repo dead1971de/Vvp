@@ -23,7 +23,6 @@ setlocacle(LC_ALL,"RUS");
 int n;
 
 cout<<"Введите целое число N (N>0): ";
-
 cin>>n;
 
 cout<<"Двойной факториал числа N: "<<Fact2(n);
