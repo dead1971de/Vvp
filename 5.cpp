@@ -19,7 +19,7 @@ return a;
 
 int main()
 {
-setlocacle(LC_ALL,"RUS");
+setlocale(LC_ALL,"RUS");
 int n;
 
 cout<<"Введите целое число N (N>0): ";
